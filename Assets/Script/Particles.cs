@@ -5,10 +5,10 @@ using UnityEngine;
 public class Particles : MonoBehaviour
 {
     // Start is called before the first frame update
-    private ParticleSystemRenderer PSR;
+    [SerializeField] private ParticleSystemRenderer PSR;
     void Start()
     {
-        PSR = GetComponent<ParticleSystemRenderer>();
+       // PSR = GetComponent<ParticleSystemRenderer>();
     }
 
     private float InputX;
